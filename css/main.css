@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  color: gray;
+  margin-top: 2rem;
+}
+
+main {
+  margin-bottom: 2rem;
+  padding: 3rem;
+  margin-left: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+article {
+  background-color: #f8e800;
+  padding: 1rem;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+button {
+  border: none;
+  background-color: #4e00f4;
+  color: white;
+  font-weight: bolder;
+  padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+  font: inherit;
+  margin-top: 1rem;
+}
+img {
+  width: 80%;
+  height: 100%;
+  border-radius: 1rem;
+}
