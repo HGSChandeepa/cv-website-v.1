@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <script src="../js/template.js" defer></script>
     <link rel="stylesheet" href="../css/template_editing_page.css" />
     <link rel="stylesheet" href="../css/shared.css" />
     <title>cv website</title>
@@ -12,6 +12,69 @@
   <body>
     <!-- nav bar -->
     <nav></nav>
-    <h1>hu</h1>
+    <!-- body -->
+    <h3 class="header-text">
+      Please , select the sections that you want in your resume.Also feel free
+      to add any custom sections if you want.
+    </h3>
+    <!-- main template -->
+    <main class="main-container">
+      <section class="template-1" id="template-1">the online prevew</section>
+      <section class="template-1-edit" id="template-1-edit">
+        <h2>Add the sections from here</h2>
+        <h3 class="description">also drag up and down to arrange the orders</h3>
+
+        <!-- drag and drop section -->
+        <section class="select-content" id="select-content">
+          <!--  -->
+          <div class="content" id="contact-infomations">
+            <h3>Contact Informations</h3>
+            <button class="remove-btn">remove</button>
+          </div>
+          <!--  -->
+          <div class="content" id="work-experience">
+            <h3>Work Experience</h3>
+            <button class="remove-btn">remove</button>
+          </div>
+          <!--  -->
+          <div class="content" id="educetion">
+            <h3>Education</h3>
+            <button class="remove-btn">remove</button>
+          </div>
+          <!--  -->
+          <div class="content" id="skills">
+            <h3>Skills</h3>
+            <button class="remove-btn">remove</button>
+          </div>
+          <!--  -->
+          <div class="content" id="languages">
+            <h3>Languages</h3>
+            <button class="remove-btn">remove</button>
+          </div>
+          <!--  -->
+          <div class="content" id="projects">
+            <h3>projects</h3>
+            <button class="remove-btn">remove</button>
+          </div>
+
+          <div
+            class="newlly-created-sections"
+            id="newlly-created-sections"
+          ></div>
+
+          <form class="add-more-options" id="add-more-options">
+            <p>Add more catagories</p>
+            <input
+              type="text"
+              class="add-more-options-input"
+              id="add-more-options-input"
+            />
+            <button class="add-more-options-btn" id="add-more-options-btn">
+              add
+            </button>
+          </form>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
